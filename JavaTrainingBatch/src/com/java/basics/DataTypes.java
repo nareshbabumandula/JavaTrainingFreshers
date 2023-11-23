@@ -24,6 +24,9 @@ public class DataTypes {
 		System.out.println("Min value of byte container is : " + Byte.MIN_VALUE);
 		System.out.println("Max value of byte container is : " + Byte.MAX_VALUE);
 				
+		System.out.println("Min value of short container is : " + Short.MIN_VALUE);
+		System.out.println("Max value of short container is : " + Short.MAX_VALUE);
+				
 	
 		// Non primitive data types
 		String str = "hello";
@@ -32,6 +35,21 @@ public class DataTypes {
 		for (String employee : names) {
 			System.out.println(employee);
 		}
+		
+		//type casting : widening (implicit casting) and narrowing (explicit) casting
+		byte b2 = 125;
+		System.out.println(b2);
+		short s2=b2; // storing smaller container into a bigger container
+		System.out.println(s2);
+		
+		short s3=130;
+		System.out.println(s3);
+		byte b3=(byte)s3; // Unresolved compilation problem: 
+		System.out.println(b3);
+		// byte->short->int->long->double -- widening 
+		// double->long->int->short->byte -- narrrowing
+		
+		
 		
 	}
 
