@@ -19,7 +19,6 @@ public class Student {
 		System.out.println(address);
 		System.out.println(branch);
 		System.out.println(fees);
-		
 	}
 	
 	// no argument constructor
