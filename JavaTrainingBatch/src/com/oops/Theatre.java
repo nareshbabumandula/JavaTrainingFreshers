@@ -20,8 +20,7 @@ public abstract class Theatre {
 		// implementation
 		System.out.println("Good to have Online Booking Facility..!");
 	}
-	
-	
+		
 	// abstract or method without body or method definition
 	public abstract void noofSeats();
 	public abstract void screenSize();
