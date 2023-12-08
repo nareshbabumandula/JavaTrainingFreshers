@@ -16,16 +16,25 @@ public abstract class Theatre {
 	 */
 	
 	// Concrete java method
-	public void OnlineBookingFacility() {
+	public void onlineBookingFacility() {
 		// implementation
 		System.out.println("Good to have Online Booking Facility..!");
 	}
 	
 	// abstract or method without body or method definition
 	public abstract void noofSeats();
-
+	public abstract void screenSize();
+	public abstract void parking();
+	public abstract void soundSystem();
+	public abstract void washrooms();
+	public abstract void canteen();
+	public abstract void ticketValidation();
+	public abstract void fireAndSecurity();
+	public abstract void ticketCounter();
+	
+	
 	public static void main(String[] args) {
-		//Theatre t = new Theatre();
+		
 
 	}
 
