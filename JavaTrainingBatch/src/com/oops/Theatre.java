@@ -25,7 +25,7 @@ public abstract class Theatre {
 	public abstract void noofSeats();
 
 	public static void main(String[] args) {
-		
+		//Theatre t = new Theatre();
 
 	}
 
