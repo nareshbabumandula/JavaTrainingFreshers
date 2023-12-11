@@ -15,6 +15,8 @@ public abstract class Theatre {
 	 * 10.Ticket counter
 	 */
 	
+	int TicketPrice=50;
+	
 	// Concrete java method
 	public void onlineBookingFacility() {
 		// implementation
@@ -34,7 +36,7 @@ public abstract class Theatre {
 	
 	
 	public static void main(String[] args) {
-		
+		//Theatre th = new Theatre();
 
 	}
 

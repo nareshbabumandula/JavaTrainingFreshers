@@ -17,6 +17,7 @@ public class B extends A{
 		b.subtraction();
 		System.out.println(b.a);
 		System.out.println(b.b);
+		System.out.println(b.hashCode());
 	}
 
 }

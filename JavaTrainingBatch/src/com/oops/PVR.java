@@ -18,6 +18,8 @@ public class PVR extends Theatre {
 		p.fireAndSecurity();
 		p.ticketValidation();
 		p.onlineBookingFacility();
+		p.TicketPrice=100;
+		System.out.println(p.TicketPrice);
 	}
 
 	
