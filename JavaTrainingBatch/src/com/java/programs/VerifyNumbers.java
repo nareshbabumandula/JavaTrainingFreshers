@@ -13,11 +13,18 @@ public class VerifyNumbers {
 	public void verifyPrime(int num) {
 		
 	}
+	
+	void demo() {
+		for (int i = 1; i < 100; i++) {
+			System.out.println(i);
+		}
+	}
 
 	public static void main(String[] args) {
 		VerifyNumbers ver = new VerifyNumbers();
 		ver.verifyEvenOrOdd(4);
 		ver.verifyPrime(5);
+		ver.demo();
 	}
 
 }
