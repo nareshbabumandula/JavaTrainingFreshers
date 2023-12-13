@@ -62,6 +62,21 @@ public class LoopingStatements{
 		}	
 		System.out.println(primeNumbers);
 	}
+	
+	public static void whileLoopTest() {
+		int i=1;
+		while (i<=10) {
+			System.out.println(i);
+			i++;
+		}
+	}
+	
+	public static void dowhileLoopTest() {
+		int i=1;
+		do {
+			System.out.println(i);
+		} while (i<=10);
+	}
 
 	public static void main(String[] args) {
 		//forLoopDemo();
@@ -72,7 +87,10 @@ public class LoopingStatements{
 		//verifyPrimeNumber(15);
 		//verifyPrimeNumber(16);
 		//verifyPrimeNumber(17);
-		verifyPrimeNumbers(100);
+		//verifyPrimeNumbers(100);
+		//whileLoopTest();
+		dowhileLoopTest();
+		
 	}
 
 }
