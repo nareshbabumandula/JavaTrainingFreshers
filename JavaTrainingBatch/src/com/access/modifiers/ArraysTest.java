@@ -12,7 +12,11 @@ class ArraysTest {
 		//Arrays
 		// Array Declaration, initialization and assignment
 		int[] marks = {10,20,40,60,75,90, 77,52,99};
+		String[] person = {"ram", "ravi", "kiran", "suresh"};
+		
 		System.out.println("Length of the array is : " + marks.length);
+		System.out.println("Length of the array is : " + person.length);
+		
 		System.out.println(marks[0]);
 		System.out.println(marks[1]);
 		System.out.println(marks[2]);
@@ -46,22 +50,22 @@ class ArraysTest {
 		}
 		
 		// Array declaration
-	 
-		
-		char[] lowerAlphabets = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+	    char[] lowerAlphabets = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
 		System.out.println("Printing lowercase aplhabets ascii values");
 		for (int i = 0; i < lowerAlphabets.length; i++) {
 			System.out.println((int)lowerAlphabets[i]);
 		}
 		
 		System.out.println("Printing lowercase aplhabets ascii values using foreach or enhanced forloop");
-		
+		int nIteration=0;
 		for (char alphabet : lowerAlphabets) {
+			nIteration++;
+			if (nIteration==5) {
+				break;
+			}
 			System.out.println((int)alphabet);
 		}
-		
-		
-		
+	
 	}
 
 }
