@@ -19,7 +19,6 @@ public class ArrayListTest {
 		alist.add(true);
 		alist.add(1000);
 		System.out.println(alist);
-		
 		ArrayList<String> alist1 = new ArrayList<String>();
 		alist1.add("Ravi");
 		alist1.add("Kiran");
