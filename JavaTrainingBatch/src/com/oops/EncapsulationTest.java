@@ -9,6 +9,7 @@ public class EncapsulationTest extends Employee{
 		et.setSalary(15000.00);
 		System.out.println(et.getSalary());
 
+
 	}
 
 }
