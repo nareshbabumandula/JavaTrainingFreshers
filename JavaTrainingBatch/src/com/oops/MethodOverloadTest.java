@@ -24,7 +24,6 @@ public class MethodOverloadTest {
 		System.out.println("Addition of double a and b is : " +c);
 	}
 	
-
 	public static void main(String[] args) {
 		MethodOverloadTest mot = new MethodOverloadTest();
 		mot.addition();

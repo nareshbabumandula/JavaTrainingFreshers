@@ -9,7 +9,7 @@ class ArraysTest {
 		char d = 'A';
 		System.out.println((int)d);
 		
-		//Arrays
+		//Arrays are fixed in nature
 		// Array Declaration, initialization and assignment
 		int[] marks = {10,20,40,60,75,90, 77,52,99};
 		String[] person = {"ram", "ravi", "kiran", "suresh"};
