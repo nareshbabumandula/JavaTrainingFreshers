@@ -30,10 +30,10 @@ public class ArrayListTest {
 		alist.add(null);
 		alist.add(null);
 		alist.remove(1);
+		System.out.println(alist);
 		System.out.println(alist.get(0));
 		System.out.println(alist.contains("Santhosh"));
 		System.out.println(alist.isEmpty());
-		System.out.println(alist);
 		System.out.println(alist.size());
 		ArrayList<String> alist1 = new ArrayList<String>();
 		alist1.add("Ravi");
