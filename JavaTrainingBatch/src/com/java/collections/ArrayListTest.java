@@ -52,6 +52,7 @@ public class ArrayListTest {
 		alist2.add("john");
 		alist2.add("peter");
 		//alist2.add(true);
+			
 		
 	}
 
