@@ -1,6 +1,7 @@
 package com.java.collections;
 
 import java.util.ArrayList;
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class TreeSetTest {
@@ -29,6 +30,15 @@ public class TreeSetTest {
 		TreeSet<String> tset = new TreeSet<>();
 		tset.addAll(alist);
 		System.out.println(tset);
+		
+		SortedSet sortedset = new TreeSet<>();
+		sortedset.add("Varun");
+		sortedset.add("Krishna");
+		sortedset.add("Varun");
+		//sortedset.add(null); // java.lang.NullPointerException
+		sortedset.addAll(tset);
+		System.out.println(sortedset);
+		
 		
 		
 
