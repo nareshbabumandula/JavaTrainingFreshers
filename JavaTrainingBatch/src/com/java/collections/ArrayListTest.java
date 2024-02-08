@@ -54,7 +54,10 @@ public class ArrayListTest {
 		alist2.add("john");
 		alist2.add("peter");
 		//alist2.add(true);
-			
+		
+		// lambda expression on ArrayList
+		System.out.println("Iterating through the ArrayList via lambda");
+		alist.forEach((name)->System.out.println(name));
 		
 	}
 
