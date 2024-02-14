@@ -28,6 +28,7 @@ public class ArrayListTest {
 		alist.add(true);
 		alist.add(0, "Kiran");
 		alist.add(1, "Amit");
+
 		alist.add(1000);
 		alist.add(null);
 		alist.add(null);
